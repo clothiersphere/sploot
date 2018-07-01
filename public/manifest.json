@@ -1,0 +1,15 @@
+{
+  "short_name": "Sploot",
+  "name": "Sploot Megalinks Base64 Decoder ",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardRead",
+    "clipboardWrite",
+  ]
+}
