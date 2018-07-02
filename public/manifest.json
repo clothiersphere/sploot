@@ -7,9 +7,15 @@
     "default_popup": "index.html",
     "default_icon": "icon.png"
   },
+  "content_scripts": [
+    {
+    "matches": ["http://*/*"],
+    "js": ["onCopy.js"]
+    }
+  ]
   "permissions": [
     "activeTab",
     "clipboardRead",
-    "clipboardWrite",
+    "clipboardWrite"
   ]
 }
